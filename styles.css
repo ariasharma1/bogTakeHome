@@ -8,6 +8,10 @@ body {
 
 h1 {
     font-family: 'Dancing Script', cursive;
+    color: #bc565b;
+}
+h1:hover {
+    color: #f79893;
 }
 .intro {
     border-radius: 200px;
@@ -17,3 +21,16 @@ h1 {
     width: 20%;
     padding-top: 20px;
 }
+p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card {
+    border: 4px solid #0a6462;
+    margin: 40px;
+    background-color: #b0dab6;
+}
+
+
+
