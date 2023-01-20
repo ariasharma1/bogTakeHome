@@ -21,6 +21,21 @@ h1:hover {
     width: 20%;
     padding-top: 20px;
 }
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 p {
     text-align: left;
     margin-left: 5%;
@@ -31,6 +46,28 @@ p {
     margin: 40px;
     background-color: #b0dab6;
 }
+button {
+    background-color: #f79893;
+    font-color: #0a6462;
+}
+button:hover {
+    background-color: #ffc8c4;
+    font-style: italic;
+}
+.resize {
+    width: 150px;
+    height: auto;
+    margin-left: 46%;
+    margin-right: 48%;
+    cursor: move;
+
+}
+
+
+
+
+
+
 
 
 
